@@ -1,1 +1,49 @@
 #EXTM3U
+#EXTINF:-1 group-title="-",A SportsHD
+http://103.229.254.25:7001/play/a087/index.m3u8
+#EXTINF:-1 group-title="-",Bein Sport 1
+http://103.229.254.25:7001/play/a0f0/index.m3u8
+#EXTINF:-1 group-title="-",Bein Sport 2
+http://103.229.254.25:7001/play/a0ea/index.m3u8
+#EXTINF:-1 group-title="-",Cnal SPorts
+http://103.229.254.25:7001/play/a0er/index.m3u8
+#EXTINF:-1 group-title="-",DAZN SPORT
+http://103.229.254.25:7001/play/a0eq/index.m3u8
+#EXTINF:-1 group-title="-",Eurosport HD - Rs 6.00
+http://103.229.254.25:7001/play/a03b/index.m3u8
+#EXTINF:-1 group-title="-",KSA SPORT 2
+http://103.229.254.25:7001/play/a0ej/index.m3u8
+#EXTINF:-1 group-title="-",PTV-SPORTS-HD
+http://103.229.254.25:7001/play/a084/index.m3u8
+#EXTINF:-1 group-title="-",SKYNET SPORTS
+http://103.229.254.25:7001/play/a0eh/index.m3u8
+#EXTINF:-1 group-title="-",SONY SPORTS TEN 5 - Rs 19.00
+http://103.229.254.25:7001/play/a0e4/index.m3u8
+#EXTINF:-1 group-title="-",SONY SPORTS TEN 5 HD - Rs 25.00
+http://103.229.254.25:7001/play/a0dw/index.m3u8
+#EXTINF:-1 group-title="-",STAR SPORTS 1
+http://103.229.254.25:7001/play/a07f/index.m3u8
+#EXTINF:-1 group-title="-",STAR SPORTS 1 ENC 7015
+http://103.229.254.25:7001/play/a0f3/index.m3u8
+#EXTINF:-1 group-title="-",Star Sport 2 
+http://103.229.254.25:7001/play/a06x/index.m3u8
+#EXTINF:-1 group-title="-",Star Sports 1 HD - Rs 19.00
+http://103.229.254.25:7001/play/a0a0/index.m3u8
+#EXTINF:-1 group-title="-",Star Sports 1 Hindi - Rs 19.00
+http://103.229.254.25:7001/play/a0dn/index.m3u8
+#EXTINF:-1 group-title="-",Star Sports 2 Hindi - Rs 19.00
+http://103.229.254.25:7001/play/a0aj/index.m3u8
+#EXTINF:-1 group-title="-",Star Sports 2 Hindi HD - Rs 19.00
+http://103.229.254.25:7001/play/a0cp/index.m3u8
+#EXTINF:-1 group-title="-",Star Sports 2 Tamil - Rs 4.00
+http://103.229.254.25:7001/play/a0dc/index.m3u8
+#EXTINF:-1 group-title="-",Star Sports 2 Tamil HD - Rs 19.00
+http://103.229.254.25:7001/play/a0d1/index.m3u8
+#EXTINF:-1 group-title="-",Star Sports Select 1 HD - Rs 19.00
+http://103.229.254.25:7001/play/a0bz/index.m3u8
+#EXTINF:-1 group-title="-",Star Sports Select 2 HD - Rs 15.00
+http://103.229.254.25:7001/play/a0c1/index.m3u8
+#EXTINF:-1 group-title="-",T Sports HD
+http://103.229.254.25:7001/play/a0f2/index.m3u8
+#EXTINF:-1 group-title="-",Ten Cricket
+http://103.229.254.25:7001/play/a0ep/index.m3u8
