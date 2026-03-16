@@ -1,135 +1,115 @@
 import requests
 import os
 import re
-import concurrent.futures
-import threading
 import subprocess
 from rich.console import Console
-from rich.panel import Panel
 
 console = Console()
 
-# --- Configurations ---
+# --- Config ---
 OUTPUT_DIR = "output"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-class SM_IPTV_Advance:
-    def __init__(self):
-        self.lock = threading.Lock()
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
-
+class SM_IPTV:
     def banner(self):
         os.system('clear')
-        console.print(Panel.fit("[bold cyan]⚡ SM IPTV CUSTOMIZE PRO ⚡[/bold cyan]\n[white]Option 1 & 2 | Ultra Advance | Live Validation[/white]"))
-
-    def check_link(self, channel):
-        """Channel playable kina check korbe"""
-        try:
-            # 5 second er moddhe response na ashle dead
-            r = requests.get(channel['link'], timeout=5, stream=True)
-            if r.status_code == 200:
-                return channel
-        except:
-            return None
-        return None
+        console.print("[bold cyan]⚡ SM IPTV CUSTOMIZE STABLE v11.0 ⚡[/bold cyan]")
+        console.print("[white]Simple & Powerful | Category Wise | Auto-Sync[/white]\n")
 
     def github_sync(self):
-        """Automatic update to GitHub repository"""
+        """Simple GitHub Push"""
         if os.path.exists(".git"):
-            console.print("[dim][*] Syncing with GitHub...[/dim]")
-            subprocess.run("git add . && git commit -m 'Auto-Update' && git push -u origin main", shell=True)
+            console.print("[dim][*] Syncing GitHub...[/dim]")
+            os.system("git add . && git commit -m 'Update' && git push -u origin main")
 
-    def parse_links(self, urls_str):
-        """Multiple link theke channel, category r name extract kora"""
-        all_raw_channels = []
+    def fetch_m3u(self, urls_str):
+        """Simple link fetching with fallback"""
+        all_data = []
         urls = [u.strip() for u in urls_str.split(",") if u.strip()]
+        
+        headers = {'User-Agent': 'VLC/3.0.18 LibVLC/3.0.18'}
         
         for url in urls:
             try:
-                console.print(f"[yellow][~] Fetching M3U from link...[/yellow]")
-                r = requests.get(url, timeout=15).text
-                # Category extract korar regex (group-title, EXTGRP etc)
-                matches = re.findall(r'#EXTINF:.*?(?:group-title="(.*?)")?.*?,(.*?)\n(?:#EXTGRP:(.*?)\n)?(http.*?)(?:\n|$)', r)
-                
-                for group1, name, group2, link in matches:
-                    cat = group1 or group2 or "General"
-                    # Adult content filter
-                    if any(x in name.lower() or x in cat.lower() for x in ["adult", "sex", "xxx", "porn", "18+"]):
-                        continue
-                    all_raw_channels.append({"cat": cat.strip(), "name": name.strip(), "link": link.strip()})
+                console.print(f"[yellow][~] Loading: {url[:40]}...[/yellow]")
+                r = requests.get(url, headers=headers, timeout=15)
+                if r.status_code == 200:
+                    # Regex for Category, Name, and Link
+                    matches = re.findall(r'#EXTINF:.*?(?:group-title="(.*?)")?.*?,(.*?)\n(http.*?)(?:\n|$)', r.text)
+                    for cat, name, link in matches:
+                        category = cat if cat else "General"
+                        # Filter Adult
+                        if not any(x in name.lower() or x in category.lower() for x in ["adult", "sex", "xxx", "18+"]):
+                            all_data.append({"cat": category.strip(), "name": name.strip(), "link": link.strip()})
+                else:
+                    console.print(f"[red][!] Server Error: {r.status_code}[/red]")
             except:
-                console.print(f"[red][!] Error loading link: {url[:30]}...[/red]")
-        
-        # Validating only working channels (Fast Multi-threading)
-        console.print(f"[cyan][*] Validating {len(all_raw_channels)} channels. Please wait...[/cyan]")
-        valid_channels = []
-        with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-            results = list(executor.map(self.check_link, all_raw_channels))
-            valid_channels = [ch for ch in results if ch is not None]
-        
-        return valid_channels
+                console.print("[red][!] Connection Failed![/red]")
+        return all_data
 
-    # --- Option 1: All Channel (Clean & Valid) ---
-    def process_all_channels(self, urls_str):
-        channels = self.parse_links(urls_str)
-        if not channels:
-            console.print("[red][!] No valid channels found.[/red]")
-            return
-
+    # --- Option 1: All Channel ---
+    def all_channel(self, urls):
+        data = self.fetch_m3u(urls)
+        if not data: return
+        
         path = os.path.join(OUTPUT_DIR, "all_channels.m3u")
+        # Direct write to avoid memory crash
         with open(path, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-            for ch in channels:
+            for ch in data:
                 f.write(f"#EXTINF:-1,{ch['name']}\n{ch['link']}\n")
         
-        console.print(f"[bold green]✔ Done! {len(channels)} valid channels saved in all_channels.m3u[/bold green]")
+        console.print(f"[bold green]✔ Done! {len(data)} channels saved.[/bold green]")
         self.github_sync()
 
     # --- Option 2: Custom Category (Serial wise) ---
-    def process_categories(self, urls_str):
-        channels = self.parse_links(urls_str)
-        if not channels: return
-
-        # Unique category list banano
-        categories = sorted(list(set([ch['cat'] for ch in channels])))
+    def category_channel(self, urls):
+        data = self.fetch_m3u(urls)
+        if not data: return
         
-        console.print("\n[bold yellow]Available Categories (Select Numbers):[/bold yellow]")
+        # Get unique categories
+        categories = sorted(list(set([ch['cat'] for ch in data])))
+        
+        console.print("\n[bold yellow]Available Categories:[/bold yellow]")
         for i, cat in enumerate(categories, 1):
             print(f"{i}. {cat}")
-        
-        choice = input("\nEnter Serial (e.g., 125 for News, Cartoon, Sports): ")
-        selected_indices = [int(i)-1 for i in choice if i.isdigit() and 0 < int(i) <= len(categories)]
+            
+        choice = input("\nEnter Numbers (e.g., 125): ")
+        # Convert choice string to indices
+        try:
+            indices = [int(i)-1 for i in choice if i.isdigit() and 0 < int(i) <= len(categories)]
+        except: return
 
-        for idx in selected_indices:
-            cat_name = categories[idx]
-            safe_file_name = "".join([c for c in cat_name if c.isalnum() or c in (' ', '_')]).strip().replace(' ', '_')
-            cat_path = os.path.join(OUTPUT_DIR, f"{safe_file_name}.m3u")
+        for idx in indices:
+            c_name = categories[idx]
+            safe_file = c_name.replace(" ", "_").replace("/", "_") + ".m3u"
+            cat_path = os.path.join(OUTPUT_DIR, safe_file)
             
             with open(cat_path, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
                 count = 0
-                for ch in channels:
-                    if ch['cat'] == cat_name:
+                for ch in data:
+                    if ch['cat'] == c_name:
                         f.write(f"#EXTINF:-1,{ch['name']}\n{ch['link']}\n")
                         count += 1
-            console.print(f"[green]✔ {cat_name}: {count} channels added.[/green]")
+            console.print(f"[green]✔ {c_name} updated ({count} channels).[/green]")
         
         self.github_sync()
 
-    def main_menu(self):
+    def main(self):
         while True:
             self.banner()
-            console.print("1. All Channel (Validate & Auto-Update)")
-            console.print("2. Custom Category (Serial Choice & Validation)")
-            console.print("0. Exit")
+            print("1. All Channel (Update)")
+            print("2. Custom Category (Serial Selection)")
+            print("0. Exit")
             
-            choice = input("\n[>] Select: ")
-            if choice == "1":
-                self.process_all_channels(input("\nEnter M3U Links (Comma separated): "))
-            elif choice == "2":
-                self.process_categories(input("\nEnter M3U Links (Comma separated): "))
-            elif choice == "0":
-                break
-            input("\nPress Enter to continue...")
+            opt = input("\n[>] Choice: ")
+            if opt == "1":
+                self.all_channel(input("\nEnter Links: "))
+            elif opt == "2":
+                self.category_channel(input("\nEnter Links: "))
+            elif opt == "0": break
+            input("\nPress Enter...")
 
 if __name__ == "__main__":
-    SM_IPTV_Advance().main_menu()
+    SM_IPTV().main()
