@@ -1,0 +1,493 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.postimg.cc/FFwSjdzS/Pogo.jpg" group-title="Kids",ZB Cartoon
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ubZMeQv.jpg" group-title="Kids",PBS Kids
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.postimg.cc/zBCLNtGZ/Duronto.jpg" group-title="Kids",Rongeen TV
+https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="h" group-title="Kids",Tom & Jarry
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Cartoon%20Network.png" group-title="Kids",Cartoon Network HD
+http://103.182.170.32:8888/play/a04o
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20Kids.png" group-title="Kids",Discovery Kids
+http://103.182.170.32:8888/play/a02o
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Nick.png" group-title="Kids",Nick JR
+http://103.182.170.32:8888/play/a02q
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/POGO.jpeg" group-title="Kids",Pogo
+http://103.182.170.32:8888/play/a02p
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Disney International
+http://103.182.170.32:8888/play/a01y
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.postimg.cc/3RxSzVbd/image.jpg" group-title="Kids",Zoo Moo
+https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378704923.png" group-title="Kids",Nikki
+https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png" group-title="Kids",Joy
+https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png" group-title="Kids",BuddyStar HD
+https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png" group-title="Kids",Funny Junior HD
+https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png" group-title="Kids",Smarty
+https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png" group-title="Kids",Lucky Family
+https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png" group-title="Kids",Kids Stars
+https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8
+#EXTINF:-1 tvg-id="AT400001GG" tvg-name="LooLoo Kids" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT400001GG_20250107T022142SQUARE.png" group-title="Kids",LooLoo Kids
+https://jmp2.uk/stvp-AT400001GG
+#EXTINF:-1 tvg-id="ES17000065P" tvg-name="BABY SHARK TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES17000065P_20251013T053431SQUARE.png" group-title="Kids",BABY SHARK TV
+https://jmp2.uk/stvp-ES17000065P
+#EXTINF:-1 tvg-id="babytv" tvg-name="Baby TV" tvg-logo="https://8upload.com/image/68641d8071410/babytvhilay.png" group-title="Kids",Baby TV
+https://hilay.tv/l/babytv
+#EXTINF:-1 tvg-id="zoomoo" tvg-name="ZooMoo Kids" tvg-logo="https://8upload.com/image/6832d139157cc/zoomoohilay.png" group-title="Kids",ZooMoo Kids
+https://hilay.tv/l/zoomoo
+#EXTINF:-1 tvg-id="Cartoonnetwork.mv" tvg-name="Cartoon Network US" tvg-logo="https://8upload.com/image/68063548097dd/cnhilay.png" group-title="Kids",Cartoon Network US
+https://hilay.tv/l/cartoonnetwork
+#EXTINF:-1 tvg-id="Moonbug.mv" tvg-name="Moonbug kids" tvg-logo="https://8upload.com/image/680636e6e82ea/moonbughilay.png" group-title="Kids",Moonbug kids
+https://hilay.tv/l/moonbughd
+#EXTINF:-1 tvg-id="Disney.mv" tvg-name="Disney Channel" tvg-logo="https://8upload.com/image/681f402c00822/disneychannelhilay.png" group-title="Kids",Disney Channel
+https://hilay.tv/l/disneychannel
+#EXTINF:-1 tvg-id="DisneyJr.mv" tvg-name="Disney Junior" tvg-logo="https://8upload.com/image/681f402be7fca/disneyjrhilay.png" group-title="Kids",Disney Junior
+https://hilay.tv/l/disneyjr
+#EXTINF:-1 tvg-id="DisneyXD.mv" tvg-name="Disney XD" tvg-logo="https://8upload.com/image/681f402bdee16/disneyxdhilay.png" group-title="Kids",Disney XD
+https://hilay.tv/l/disneyxd
+#EXTINF:-1 tvg-id="Nickelodeon.mv" tvg-name="Nickelodeon" tvg-logo="https://8upload.com/image/681f402bd3b9e/nickelodeonhilay.png" group-title="Kids",Nickelodeon
+https://hilay.tv/l/nickelodeon
+#EXTINF:-1 tvg-id="Boomerang.mv" tvg-name="Boomerang" tvg-logo="https://8upload.com/image/681f471c52caa/boomeranghilay.png" group-title="Kids",Boomerang
+https://hilay.tv/l/boomerang
+#EXTINF:-1 tvg-id="Babyfirst.USA.-.East.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/baby-first-tv-us.png" group-title="Kids",BABY FIRST US
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/c8d16110-566c-4e95-a1df-55d175e9e201/manifest.m3u8
+#EXTINF:-1 tvg-id="CARTOON.NETWORK.in" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/cartoon-network-in.png" group-title="Kids",Cartoon Network HD+ IN
+https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
+#EXTINF:-1 tvg-id="Cartoonito.id" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cartoonito-us.png" group-title="Kids",Cartoonito
+https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
+#EXTINF:-1 tvg-id="Disney.Junior.ca" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/disney-jr-uk.png" group-title="Kids",Disney Jr CA
+http://cord-cutter.net:8080/95549031/69361122/41960
+#EXTINF:-1 tvg-id="Disney.XD.ca" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/disney-xd-us.png" group-title="Kids",Disney XD CA
+http://cord-cutter.net:8080/95549031/69361122/75621
+#EXTINF:-1 tvg-id="Cartoon.Network.USA.-.Pacific.Feed.us" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cartoon-network-us.png" group-title="Kids",CARTOON NETWORK CA
+http://cord-cutter.net:8080/95549031/69361122/57356
+#EXTINF:-1 tvg-id="Boomerang" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/boomerang-uk.png" group-title="Kids",Boomerang UK
+http://cord-cutter.net:8080/95549031/69361122/53718
+#EXTINF:-1 tvg-id="Cartoon.Netwrk.uk" tvg-name="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/cartoon-network-uk.png" group-title="Kids",Cartoon Network UK
+http://cord-cutter.net:8080/95549031/69361122/53719
+#EXTINF:-1 tvg-id="Nickelodeon.USA.-.East.Feed.us" tvg-name="Nickelodeon FHD" tvg-logo="https://i.imgur.com/jE2YHz0.png" group-title="Kids",Nickelodeon FHD
+https://a1xs.vip/300030
+#EXTINF:-1 tvg-id="Cartoon.Network.USA.-.Eastern.Feed.us" tvg-name="Cartoon Network FHD" tvg-logo="https://i.imgur.com/draQT6x.png" group-title="Kids",Cartoon Network FHD
+https://a1xs.vip/300032
+#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon HD" tvg-logo="https://iili.io/1No7Wb.png" group-title="Kids",Nickelodeon HD
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default_ott.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co.com/pf4SxjC/knbc.png" group-title="Kids",Disney HD
+https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd
+#EXTINF:-1 tvg-id="KidsTV.id" tvg-name="Kids TV" tvg-logo="https://file.garden/aN9J-XbDsxz3RbSu/kids/kidstv.jpg?raw=true" group-title="Kids",KIDS TV
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9041826689ae4f9c9619576d411fa989/index.mpd
+#EXTINF:-1 tvg-id="CartoonNetwork.id" tvg-name="Cartoon Network" tvg-logo="https://file.garden/aN9J-XbDsxz3RbSu/kids/cn.jpg?raw=true" group-title="Kids",CARTOON NETWORK
+https://atemeshield1-voe.sysln.id/live/eds/CartoonNetWHD/mpd/CartoonNetWHD.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://file.garden/aN9J-XbDsxz3RbSu/kids/cartoontvpremium.jpg?raw=true" group-title="Kids",CARTOON TV PREMIUM
+https://cdnjkt913.transvision.co.id:1000/live/master/5/4028c6856b8d2390016b9c47b6f01de1/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://file.garden/aN9J-XbDsxz3RbSu/kids/cartoontv.jpg?raw=true" group-title="Kids",CARTOON TV
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d144f21811dc9/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://file.garden/aN9J-XbDsxz3RbSu/kids/cartoontvclassic.jpg?raw=true" group-title="Kids",CARTOON TV CLASSICS
+https://cdnjkt913.transvision.co.id:1000/live/master/100/4028c685840ff0490184560100c34363/manifest.mpd
+#EXTINF:-1 tvg-id="Biznet Kids" tvg-name="Biznet Kids" tvg-logo="https://file.garden/aN9J-XbDsxz3RbSu/kids/biznetkids.jpg?raw=true" group-title="Kids",BIZNET KIDS
+http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd?bizkeylivestarttime=0&bizkeyliveendtime=0&bizkeyliveCustomParameter=myParameter&bizkeylivehash=BFQE_NtUYLScAUYvx2vpe9IsezHwkSHpL8q-eqK12ZvrexZJmhAVeqDFTOrWvYXR
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Kids",w_300,q_85/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Kids",w_300,q_85/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Kids",w_300,q_85/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Kids",w_300,q_85/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Kids",w_300,q_85/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp",[BD] POGO
+https://bldcmprod-cdn.toffeelive.com/cdn/live/pogo_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp" group-title="Kids",w_300,q_85/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp" group-title="Kids",w_300,q_85/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp" group-title="Kids",w_300,q_85/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp" group-title="Kids",w_300,q_85/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp" group-title="Kids",w_300,q_85/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp",[BD] Cartoon Network
+https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_sd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp" group-title="Kids",w_300,q_85/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp" group-title="Kids",w_300,q_85/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp" group-title="Kids",w_300,q_85/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp" group-title="Kids",w_300,q_85/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp" group-title="Kids",w_300,q_85/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp",[BD] Cartoon Network HD +
+https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp" group-title="Kids",w_300,q_85/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp" group-title="Kids",w_300,q_85/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp" group-title="Kids",w_300,q_85/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp" group-title="Kids",w_300,q_85/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp" group-title="Kids",w_300,q_85/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp",[BD] Discovery Kids
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_kids/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/31a070024b6516e3738baec70168f0b6" group-title="Kids",Disney JR
+https://tvsen7.aynascope.net/disneyjr/index.m3u8?e=1773655965&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e6c7a4e70e8b46417010a6ad2a164cac
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/76e36f75bf11c815a76c5622d627c814" group-title="Kids",3ABN Kids
+https://tvsen6.aynascope.net/3abnkids/index.m3u8?e=1773655967&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6742c007763bd37800a3203326af2150
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/6712a3c8a28689cfda4148faf095fa67" group-title="Kids",Dios Te Ve Kids
+https://s.emisoras.tv:8081/diostevekids/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/61c87bda9e538dd52b3ef654e85a11ff" group-title="Kids",Forever Kids
+https://tvsen6.aynascope.net/ForeverKids/index.m3u8?e=1773655968&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e6c4eed049e9f238761863c0c2a9dfcb
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/bc2a021f901e4d1de4948f314536c1bf" group-title="Kids",Kids Pang TV
+https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/45d94f96cdc5a444bc4969af940fe294" group-title="Kids",M NET Kids
+https://tvsen6.aynascope.net/MNetKids/index.m3u8?e=1773655970&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1d02d047760ef1b5f645cd9eb2234918
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/91efc1ae410c11ccc4ab07f7221f0dad" group-title="Kids",TVC Arabic Kids
+https://tvsen6.aynascope.net/TVCArabicKids/index.m3u8?e=1773655972&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ab94fa037e0ddef077c8af25cd974af6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/c6fde511a99e5134dbf12b77da386cb6" group-title="Kids",TVCARiB Kids & Teens
+https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8
+#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-69333216ac5b3f9f53442374" tvg-name="Baby Einstein" tvg-logo="https://provider-static.plex.tv/epg/cms/production/e757f7e3-f3de-46f5-b6e0-9aa42bdb61d1/BabyEinstein_logo_1500x1000_light.png.png" group-title="Kids",Baby Einstein
+https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-69333216ac5b3f9f53442374.m3u8
+#EXTINF:-1 tvg-id="99991107" tvg-name="Xumo Free Kids TV" tvg-logo="https://image.xumo.com/v1/channels/channel/99991107/168x168.png?type=color_onBlack" group-title="Kids",Xumo Free Kids TV
+https://live-content.xumo.com/1854/content/XM0TJ5649CJIDD/23321794/master.m3u8
+#EXTINF:-1 tvg-id="KidsFlix.us@SD" tvg-name="" tvg-logo="" group-title="Kids",-1 tvg-id="KidsFlix.us@SD",KidsFlix (1080p) [Not 24/7]
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
+#EXTINF:-1 tvg-id="NCMEducationalKidsChannel.us@SD" tvg-name="" tvg-logo="" group-title="Kids",-1 tvg-id="NCMEducationalKidsChannel.us@SD",NCM Educational & Kids Channel
+https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",-1 tvg-id="",Cartoon Classics
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/a130687320f6b07db4bc3729b9d5e96e" group-title="Kids",Nicktoons
+https://tvsen5.aynascope.net/nicktoons/index.m3u8?e=1773797952&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=56c23b0ed17ff50f2272e690073fff1e
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/921409bfe77e2e3d32492116bc22fa3e" group-title="Kids",Nickjr
+https://tvsen5.aynascope.net/nickjr/index.m3u8?e=1773797952&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dbb64315405d9272fd6258f3b4a2c250
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/5739277278d596533abbacc60ea694be" group-title="Kids",Teen Nick
+https://tvsen7.aynascope.net/teennick/index.m3u8?e=1773797962&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5f363625c2fc55d10e14ae88705fe5fb
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/d79d89851faee0823a1f2bed1a96e84d" group-title="Kids",YTV
+https://tvsen6.aynascope.net/ytv/index.m3u8?e=1773797963&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a3a596439af5aaf621240cf200d6989c
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://tvassets.roarzone.info/images/55.png" group-title="Kids",nick
+https://edge2.roarzone.info:8447/roarzone/bk/55/index.m3u8?token=a5601ca31336477d502ed0c068cc7ddbcb2b271f-76d3fe0ce1bb28dc54f08914cbc33eec-1773652279-1773648679
+#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-5eea605574085f0040ddc797" tvg-name="KidsFlix" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/kidsflix.png" group-title="Kids",KidsFlix
+https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-5eea605574085f0040ddc797.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7 My Wife and Kids
+https://s.rongintv.workers.dev/ch/223889
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7 Atlanta's Missing and Murdered: The Lost Children
+https://s.rongintv.workers.dev/ch/223960
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7: Babylon 5
+https://s.rongintv.workers.dev/ch/224070
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7: Married With Children
+https://s.rongintv.workers.dev/ch/224262
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7: My Wife and Kids
+https://s.rongintv.workers.dev/ch/224297
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7: Christmas Cartoons
+https://s.rongintv.workers.dev/ch/224521
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7: Disney's Adventures of the Gummi Bears
+https://s.rongintv.workers.dev/ch/224687
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7: Loo Loo Kids Johny & Friends Musical Adventure
+https://s.rongintv.workers.dev/ch/224702
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7: X-Men Cartoon
+https://s.rongintv.workers.dev/ch/224777
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",24/7 Disney Gallery / Star Wars: The Mandalorian
+https://s.rongintv.workers.dev/ch/224787
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/CHD.png" group-title="Kids",DSTV: Cartoon Network (FHD)
+https://s.rongintv.workers.dev/ch/158030
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/33B.png" group-title="Kids",DSTV: Boomerang (FHD)
+https://s.rongintv.workers.dev/ch/158031
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/NIK.png" group-title="Kids",DSTV: Nickelodeon (FHD)
+https://s.rongintv.workers.dev/ch/158033
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/SO8.png" group-title="Kids",DSTV: Disney Channel.
+https://s.rongintv.workers.dev/ch/158062
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/dd/disney_junior_us.png" group-title="Kids",DSTV: Disney Junior.
+https://s.rongintv.workers.dev/ch/158066
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/DW6.png" group-title="Kids",DSTV: PBS Kids.
+https://s.rongintv.workers.dev/ch/158069
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/mm/moonbug-uk.png" group-title="Kids",DSTV: Moonbug Kids.
+https://s.rongintv.workers.dev/ch/158070
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",FR (C+AF) CANAL + KIDS
+https://s.rongintv.workers.dev/ch/145031
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",FR (C+AF) DISNEY JUNIOR
+https://s.rongintv.workers.dev/ch/145080
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",FR (C+AF) LUDIKIDS
+https://s.rongintv.workers.dev/ch/145133
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",FR (C+AF) NICKELODEON
+https://s.rongintv.workers.dev/ch/145156
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",GR: BABY TV
+https://s.rongintv.workers.dev/ch/671
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",GR: DISNEY JUNIOR
+https://s.rongintv.workers.dev/ch/672
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",GR: DISNEY XD
+https://s.rongintv.workers.dev/ch/674
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CZ | Disney Junior
+https://s.rongintv.workers.dev/ch/661214
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CZ | Nickelodeon
+https://s.rongintv.workers.dev/ch/661215
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",IN : CARTOON NETWORK HD
+https://s.rongintv.workers.dev/ch/8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",USA: Nickelodeon
+https://s.rongintv.workers.dev/ch/37
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",USA: Boomerang
+https://s.rongintv.workers.dev/ch/45
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",USA: DISNEY JR HD
+https://s.rongintv.workers.dev/ch/49
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",IN: Discovery_Kids_1
+https://s.rongintv.workers.dev/ch/208
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK:Nickelodeon
+https://s.rongintv.workers.dev/ch/269
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",US: Cartoon Network
+https://s.rongintv.workers.dev/ch/951
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK : CARTOON NETWORK HD
+https://s.rongintv.workers.dev/ch/1066
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK : BOOMERANG
+https://s.rongintv.workers.dev/ch/1067
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK : DISNEY JR
+https://s.rongintv.workers.dev/ch/1068
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK : BABY TV
+https://s.rongintv.workers.dev/ch/1069
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",PT : Baby TV
+https://s.rongintv.workers.dev/ch/1653
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",IN: Pogo_Hindi
+https://s.rongintv.workers.dev/ch/1918
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",IN: POGO (ENGLISH)
+https://s.rongintv.workers.dev/ch/7220
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids: PAW Patrol FHD
+https://s.rongintv.workers.dev/ch/18455
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids: Hungama
+https://s.rongintv.workers.dev/ch/18456
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids: Nick Pakistan
+https://s.rongintv.workers.dev/ch/18457
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="Kids",IN: Disney Channel (4K)
+https://s.rongintv.workers.dev/ch/19741
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="Kids",IN: DISNEY INTERNATIONAL (4K)
+https://s.rongintv.workers.dev/ch/20925
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",IN: Disney Junior
+https://s.rongintv.workers.dev/ch/35713
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS: SUPER HUNGAMA
+https://s.rongintv.workers.dev/ch/66162
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",TAMIL: DISCOVERY KIDS
+https://s.rongintv.workers.dev/ch/66164
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",TAMIL: POGO
+https://s.rongintv.workers.dev/ch/66165
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-SPIDER MAN 2008
+https://s.rongintv.workers.dev/ch/147720
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-SPIDER MAN 1981
+https://s.rongintv.workers.dev/ch/147721
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-SPIDER MAN 1967
+https://s.rongintv.workers.dev/ch/147722
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-SLUGTERRA
+https://s.rongintv.workers.dev/ch/147723
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-SHINCHAN
+https://s.rongintv.workers.dev/ch/147724
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-SHAPE RHYMES
+https://s.rongintv.workers.dev/ch/147725
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-SAMURAI JACK
+https://s.rongintv.workers.dev/ch/147726
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-POPEYE THE SAILOR MAN
+https://s.rongintv.workers.dev/ch/147727
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-PJ MASK
+https://s.rongintv.workers.dev/ch/147728
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-PEPPA PIG 2
+https://s.rongintv.workers.dev/ch/147729
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-PEPPA PIG
+https://s.rongintv.workers.dev/ch/147730
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-FINGER FAMILY HD 3
+https://s.rongintv.workers.dev/ch/147731
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-NURSERY RHYMES HD 4
+https://s.rongintv.workers.dev/ch/147732
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-PAW PETROL UNBOXING TOY
+https://s.rongintv.workers.dev/ch/147733
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-PAW PETROL TOY STORY
+https://s.rongintv.workers.dev/ch/147734
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-PAW PETROL
+https://s.rongintv.workers.dev/ch/147735
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-PERMAN
+https://s.rongintv.workers.dev/ch/147736
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-LONNEY TUNES PLATINUM COLLECTION
+https://s.rongintv.workers.dev/ch/147737
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-KUNG FU PANDA
+https://s.rongintv.workers.dev/ch/147738
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-GENERTOX REX
+https://s.rongintv.workers.dev/ch/147740
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-FRUITS VEGETABLE RHYMES
+https://s.rongintv.workers.dev/ch/147741
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-FIVE LITTLE RHYMES
+https://s.rongintv.workers.dev/ch/147742
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BEN 10 ULTIMATE ALIEN
+https://s.rongintv.workers.dev/ch/147743
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-DUCK TALES HD
+https://s.rongintv.workers.dev/ch/147744
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-DUCK TALES CLASSIC
+https://s.rongintv.workers.dev/ch/147745
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-DORAEMON
+https://s.rongintv.workers.dev/ch/147746
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-COLOUR RHYMES HD
+https://s.rongintv.workers.dev/ch/147747
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-CHRISTMAS RHYMES
+https://s.rongintv.workers.dev/ch/147748
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BEN 10 OMNIVERSE
+https://s.rongintv.workers.dev/ch/147749
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BEN TEN CLASSIC
+https://s.rongintv.workers.dev/ch/147750
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BEN 10 ALIEN FORCE HD
+https://s.rongintv.workers.dev/ch/147751
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-ART-FUN
+https://s.rongintv.workers.dev/ch/147752
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-AVATAR THE LAST AIRBENDER HD
+https://s.rongintv.workers.dev/ch/147753
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-ANIMAL RHMYES
+https://s.rongintv.workers.dev/ch/147754
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-ANGERY BIRDS TOONS HD
+https://s.rongintv.workers.dev/ch/147755
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-ABCD RHYMES HD 2
+https://s.rongintv.workers.dev/ch/147756
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-ABBY HATCHER
+https://s.rongintv.workers.dev/ch/147757
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-NURSER RHYMES HD 4
+https://s.rongintv.workers.dev/ch/147758
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-STORY
+https://s.rongintv.workers.dev/ch/147759
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BABY TOOT
+https://s.rongintv.workers.dev/ch/147760
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BIRTHDAY SONGS
+https://s.rongintv.workers.dev/ch/147761
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-HICKORY DICKORY DOCK
+https://s.rongintv.workers.dev/ch/147762
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BOOM BUDDIES RHYMES HD
+https://s.rongintv.workers.dev/ch/147763
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BABAY BAO PANDA HD
+https://s.rongintv.workers.dev/ch/147769
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BABAY RHYMES HD
+https://s.rongintv.workers.dev/ch/147770
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-ANIMAL RHYMES HD
+https://s.rongintv.workers.dev/ch/147771
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-A B C D RHYMES HD
+https://s.rongintv.workers.dev/ch/147772
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-NURSERY RHYMES HD 3
+https://s.rongintv.workers.dev/ch/147773
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-NUMBER RHMYES HD
+https://s.rongintv.workers.dev/ch/147774
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-BOB THE TRAIN HD
+https://s.rongintv.workers.dev/ch/147775
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-NURSERY RHYMES HD 2
+https://s.rongintv.workers.dev/ch/147776
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-MR BEAN HD
+https://s.rongintv.workers.dev/ch/147777
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-RHYMES HD
+https://s.rongintv.workers.dev/ch/147778
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-MASH AND BEAR HD
+https://s.rongintv.workers.dev/ch/147779
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-CHU CHU TV HD
+https://s.rongintv.workers.dev/ch/147780
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS-FINGER FAMILY HD
+https://s.rongintv.workers.dev/ch/147781
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",IN: DISNEY JUNIOR (MULTI AUDIO)
+https://s.rongintv.workers.dev/ch/207676
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids:  Cartoon Network Arabia HD
+https://s.rongintv.workers.dev/ch/319402
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids: Toyor Aljana
+https://s.rongintv.workers.dev/ch/319403
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids:  SpaceToon TV
+https://s.rongintv.workers.dev/ch/319404
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids: Rotana Kids HD
+https://s.rongintv.workers.dev/ch/319405
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids:  Karamesh
+https://s.rongintv.workers.dev/ch/319406
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids:  OSN Kids Zone HD
+https://s.rongintv.workers.dev/ch/319407
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids | Ar: NickToons HD
+https://s.rongintv.workers.dev/ch/319408
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids: OSN Nickelodeon HD
+https://s.rongintv.workers.dev/ch/319409
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids: Baby TV
+https://s.rongintv.workers.dev/ch/319410
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids:  HodHod  TV
+https://s.rongintv.workers.dev/ch/319411
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids:  Taha TV
+https://s.rongintv.workers.dev/ch/319412
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids: Majid Kids TV
+https://s.rongintv.workers.dev/ch/319413
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids:  Atfal & Mawaheb
+https://s.rongintv.workers.dev/ch/319415
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Kids | En: NickToons HD
+https://s.rongintv.workers.dev/ch/319416
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",KIDS: ETV Bal Bharat SD
+https://s.rongintv.workers.dev/ch/355286
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK FHD : Nickelodeon
+https://s.rongintv.workers.dev/ch/148190
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",Cartoon Network FHD
+https://s.rongintv.workers.dev/ch/148211
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK FHD : Sky Kids
+https://s.rongintv.workers.dev/ch/148222
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UKHD : BOOMERANG
+https://s.rongintv.workers.dev/ch/148312
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK SD :  Boomerang +1
+https://s.rongintv.workers.dev/ch/148563
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",UK SD : Nickelodeon +1
+https://s.rongintv.workers.dev/ch/148735
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",US: DISNEY JR EAST
+https://s.rongintv.workers.dev/ch/3402
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",US: DISNEY XD EAST
+https://s.rongintv.workers.dev/ch/3403
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CA Cartoon Network East
+https://s.rongintv.workers.dev/ch/616035
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CA Disney La Chain
+https://s.rongintv.workers.dev/ch/616040
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CA La Chaine Disney (FR)
+https://s.rongintv.workers.dev/ch/616052
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CA La Chaine Disney (FR))
+https://s.rongintv.workers.dev/ch/616195
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CA Cartoon Network West
+https://s.rongintv.workers.dev/ch/616270
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CA Disney Junior
+https://s.rongintv.workers.dev/ch/616272
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CA Disney XD
+https://s.rongintv.workers.dev/ch/616273
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",CA Nickelodeon
+https://s.rongintv.workers.dev/ch/616276
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/NIK.png" group-title="Kids",DSTV: Nickelodeon HD
+https://s.rongintv.workers.dev/ch/2261
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/33B.png" group-title="Kids",DSTV: Boomerang
+https://s.rongintv.workers.dev/ch/23370
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/DPH.png" group-title="Kids",DSTV: Disney Junior
+https://s.rongintv.workers.dev/ch/23851
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/CHD.png" group-title="Kids",DSTV: Cartoon Network
+https://s.rongintv.workers.dev/ch/23870
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/DW6.png" group-title="Kids",DSTV: PBS Kids
+https://s.rongintv.workers.dev/ch/120868
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Kids",DSTV: Moonbug Kids
+https://s.rongintv.workers.dev/ch/137522
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu_Gxy8ywjMY6_YPX-1uYtUGA56FOfDoBsH62-ekNA=s900-c-k-c0x00ffffff-no-rj" group-title="Religious",Saudi Quran
+https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71CywdrFaZL.png" group-title="Religious",Madina Live
+https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/7jrjkW1/20240813-112630.png" group-title="Religious",Madani TV
+https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/TtHtGkW/20240803-172601.png" group-title="Religious",Makkah TV
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/makkahtv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/rtkWYHV/20240827-092043.png" group-title="Religious",AL Sunnah TV
+http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",EWTN TV
+https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",God TV
+https://hlsb-us.god.tv/GODTV/USA-480.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",Arihant TV
+https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/cccbc9a19bb14504beacff550f47d014" group-title="Religious",Peace TV
+https://tvsen5.aynascope.net/peacetv/index.m3u8?e=1773655869&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b12be84ac0dcfef059586ba65323aef2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/5442b2655aca6398b26ba539f396565a" group-title="Religious",Peace TV Urdu HD
+https://tvsen6.aynascope.net/PeaceTVUrduHD/index.m3u8?e=1773655984&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1d372718417953624d02e63206ac4b55
+#EXTINF:-1 tvg-id="25" tvg-name="zee-hindustan" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/sdgosh.png" group-title="Religious",Zee Hindustan
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8?hdnts=st%3D1773782433~exp%3D1773804033~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeehindustan%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F96bbab12-582e-4540-af70-510ab6824581%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.185.19_yuppfast_2_channel_25_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.185.19_yuppfast_2_channel_25_-1~hmac%3Dc9a97020d406d292fa1199e23d89e0f12b6a4880e0d130f7b6afd3b0e15f1d27
+#EXTINF:-1 tvg-id="191" tvg-name="hindu-dharmam" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/hindu-dharmam.png" group-title="Religious",Hindu Dharmam
+https://yuppparoriglin.akamaized.net/181224/smil:hindudharmam.smil/playlist.m3u8?hdnts=st%3D1773782506~exp%3D1773804106~acl%3D%21%2A%2F181224%2Fsmil%3Ahindudharmam.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.185.19_yuppfast_2_channel_191_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.185.19_yuppfast_2_channel_191_-1~hmac%3D53bbad83894933b32effe2e035ea42d7bc3270fcaa739e5dec379eacf12954f9
+#EXTINF:-1 tvg-id="209" tvg-name="holy-god-tv" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/holy-god-tv.png" group-title="Religious",HOLY GOD TV
+https://yuppparoriglin.akamaized.net/181224/smil:holygod.smil/playlist.m3u8?hdnts=st%3D1773782512~exp%3D1773804112~acl%3D%21%2A%2F181224%2Fsmil%3Aholygod.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.185.19_yuppfast_2_channel_209_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.185.19_yuppfast_2_channel_209_-1~hmac%3D33ea2651ae5b60fd31c7e124f53773e198eb78ccae80f8520898e21469ccd90d
+#EXTINF:-1 tvg-id="KPCBDT1.us@SD" tvg-name="" tvg-logo="" group-title="Religious",-1 tvg-id="KPCBDT1.us@SD",God's Learning Channel (480p)
+https://2-fss-1.streamhoster.com/pl_122/200562-1176456-1/playlist.m3u8
+#EXTINF:-1 tvg-id="KSCEDT1.us@SD" tvg-name="" tvg-logo="" group-title="Religious",-1 tvg-id="KSCEDT1.us@SD",Life! Christian Broadcasting Network (360p)
+https://2-fss-2.streamhoster.com/pl_138/200226-1359204-1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/66ac3ae1e56001353b69bb5f63ebcc6e" group-title="Religious",Deen TV
+https://tvsen7.aynascope.net/deen/index.m3u8?e=1773797971&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=abbaebba67483b0476aeda04175abb15
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://s3.aynaott.com/storage/09d759c7bb93fa3fb76014c8936201ce" group-title="Religious",Eman Channel
+https://tvsen6.aynascope.net/eman/index.m3u8?e=1773797971&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dcadeb63a62aada75d54e3edcdaf2042
+#EXTINF:-1 tvg-id="" tvg-name="AL EKHBARIA" tvg-logo="" group-title="Religious",AL EKHBARIA
+https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="QURAN" tvg-logo="" group-title="Religious",QURAN
+https://www.elahmad.com/tv/m3u8/online_live_14_tv.m3u8?id=qoran_tv&t=11111111
+#EXTINF:-1 tvg-id="" tvg-name="BAHRAIN QURAN" tvg-logo="" group-title="Religious",BAHRAIN QURAN
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",FR (C+AF) IQRAA
+https://s.rongintv.workers.dev/ch/145116
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.logolynx.com/images/logolynx/7b/7b218f1f5bac379a2f3d83b0a048e099.jpeg" group-title="Religious",PK: PEACE TV (ENGLISH)
+https://s.rongintv.workers.dev/ch/122766
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",Islam | Ar: Iqraa TV
+https://s.rongintv.workers.dev/ch/319465
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",Islam | En: Iqraa TV
+https://s.rongintv.workers.dev/ch/319466
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",PK : PEACE TV URDU
+https://s.rongintv.workers.dev/ch/115
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",PK: Ary Qtv
+https://s.rongintv.workers.dev/ch/127
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgjpcyKNwJOCfctshhAcRP3P19xeZ9IgBBcw&usqp=CAU" group-title="Religious",BD_IQRA BANGALI
+https://s.rongintv.workers.dev/ch/407
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/ss/swarga_tv_lk.png" group-title="Religious",GOD-TV/SWARGA-TV
+https://s.rongintv.workers.dev/ch/23973
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",IQRAA
+https://s.rongintv.workers.dev/ch/25080
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",ATN Islamic
+https://s.rongintv.workers.dev/ch/57883
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",UK: Madani Chnl
+https://s.rongintv.workers.dev/ch/148601
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",US: ARY QTV
+https://s.rongintv.workers.dev/ch/36918
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="Religious",CA (Asian) ARY QTV (E)
+https://s.rongintv.workers.dev/ch/607382
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_SANGAM.png" group-title="Religious",IN: Zee Hindustan
+https://s.rongintv.workers.dev/ch/7720
